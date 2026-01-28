@@ -29,13 +29,13 @@ export function HeroSection() {
           </div>
 
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground leading-tight mb-6 text-balance">
-            Specialistin in
+            Specialist in
             <span className="text-primary block mt-2">Water Proofing Work</span>
           </h1>
 
           <p className="text-lg text-muted-foreground mb-8 max-w-2xl leading-relaxed">
             Protecting your structures from water damage with cutting-edge technology 
-            and over 7 years of industry expertise. We deliver reliability you can trust.
+            and over 10 years of industry expertise. We deliver reliability you can trust.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">

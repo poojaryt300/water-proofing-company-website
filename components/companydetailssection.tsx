@@ -12,7 +12,7 @@ export function CompanyDetailsSection() {
             <h3 className="text-xl font-semibold mb-4">Basic Information</h3>
             <ul className="space-y-2 text-muted-foreground">
               <li><strong>Industry:</strong> Services of Civil Construction</li>
-              <li><strong>Year of Establishment:</strong> 2014</li>
+              <li><strong>Year of Establishment:</strong> 2015</li>
               <li><strong>Legal Status:</strong> Proprietorship</li>
               <li><strong>Promoter:</strong> Ranjan Kumar, Mangalore</li>
               <li><strong>Total Employees:</strong> 24 Nos</li>

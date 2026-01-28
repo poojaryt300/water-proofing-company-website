@@ -22,21 +22,21 @@ export function FounderSection() {
           <div className="relative flex justify-center">
             
             {/* Animated Ring */}
-            <div className="relative w-60 h-60">
+            <div className="relative w-96 h-96">
               <div className="absolute inset-0 rounded-full 
-                bg-gradient-to-tr from-cyan-400 via-blue-500 to-indigo-600 
-                animate-spin-slow blur-[1px]" 
+                bg-gradient-to-tr from-primary/50 via-primary/30 to-primary/20 
+                animate-spin-slow blur-sm opacity-70" 
               />
 
-              <div className="absolute inset-[6px] rounded-full bg-background" />
+              <div className="absolute inset-[8px] rounded-full bg-background" />
 
-              <div className="absolute inset-[10px] rounded-full overflow-hidden relative">
+              <div className="absolute inset-[12px] rounded-full overflow-hidden flex items-center justify-center">
                 <Image
-                  src="/public/images/ranjan.jpg"
+                  src="/images/ranjan.jpg"
                   alt="Ranjan Kumar"
-                  fill
-                  sizes="(max-width: 768px) 240px, 240px"
-                  className="object-cover"
+                  width={360}
+                  height={360}
+                  className="object-cover w-full h-full rounded-full"
                   priority
                 />
               </div>
