@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { MapPin } from "lucide-react";
-import { title } from "process";
 
 const projects = [
   {
@@ -54,7 +53,8 @@ const projects = [
     title: "K2K prestige",
     location: "deralakatte, Mangalore",
   },
-  {    image: "/images/project-10.jpg",
+  {
+    image: "/images/project-10.jpg",
     title: "K2K prestige",
     location: "deralakatte, Mangalore",
   },
@@ -89,7 +89,7 @@ export function ProjectsSection() {
               key={index}
               className="group relative overflow-hidden rounded-lg border border-border"
             >
-              <div className="aspect-[16/10] relative">
+              <div className="aspect-[16/10] relative w-full">
                 <Image
                   src={project.image || "/placeholder.svg"}
                   alt={project.title}

@@ -26,10 +26,10 @@ export function AboutSection() {
 
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-6">
-              Shree Durga Enterprises has been in business for over seven (2) years and
+              Shree Durga Enterprises has been in business for over ten  (2) years and
 their success rate in this industry, Residential & Commercial Industry, speaks for
 itself. With the continues research they did on the products they use in the industry,
-the business has grown so much that they are in a position to provide a 7-10 year
+the business has grown so much that they are in a position to provide a 10 year
 guarantee on their workmanship.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-8">

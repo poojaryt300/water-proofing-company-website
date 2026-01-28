@@ -75,7 +75,7 @@ export function ContactSection() {
                   </label>
                   <Input
                     type="text"
-                    placeholder="Ranjan Kumar"
+                    placeholder="enter your name"
                     value={formData.name}
                     onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                     required
@@ -87,7 +87,7 @@ export function ContactSection() {
                   </label>
                   <Input
                     type="email"
-                    placeholder="sridhurgha9@gmail.com"
+                    placeholder="exmple@gmail.com"
                     value={formData.email}
                     onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                     required
@@ -100,7 +100,7 @@ export function ContactSection() {
                 </label>
                 <Input
                   type="tel"
-                  placeholder="9902852886"
+                  placeholder="number"
                   value={formData.phone}
                   onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                   required

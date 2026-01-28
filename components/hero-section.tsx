@@ -29,8 +29,8 @@ export function HeroSection() {
           </div>
 
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground leading-tight mb-6 text-balance">
-            Specialistin Water Proofing Work 
-            <span className="text-primary block mt-2">& Construction Work</span>
+            Specialistin in
+            <span className="text-primary block mt-2">Water Proofing Work</span>
           </h1>
 
           <p className="text-lg text-muted-foreground mb-8 max-w-2xl leading-relaxed">
@@ -53,7 +53,7 @@ export function HeroSection() {
           {/* Stats */}
           <div className="grid grid-cols-3 gap-8 mt-16 pt-8 border-t border-border">
             <div>
-              <p className="text-3xl sm:text-4xl font-bold text-primary">7+</p>
+              <p className="text-3xl sm:text-4xl font-bold text-primary">10+</p>
               <p className="text-sm text-muted-foreground mt-1">Years Experience</p>
             </div>
             <div>

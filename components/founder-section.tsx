@@ -30,9 +30,9 @@ export function FounderSection() {
 
               <div className="absolute inset-[6px] rounded-full bg-background" />
 
-              <div className="absolute inset-[10px] rounded-full overflow-hidden">
+              <div className="absolute inset-[10px] rounded-full overflow-hidden relative">
                 <Image
-                  src="/images/ranjan.jpg"
+                  src="/public/images/ranjan.jpg"
                   alt="Ranjan Kumar"
                   fill
                   sizes="(max-width: 768px) 240px, 240px"
