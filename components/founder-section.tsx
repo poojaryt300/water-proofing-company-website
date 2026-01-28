@@ -35,6 +35,7 @@ export function FounderSection() {
                   src="/images/ranjan.jpg"
                   alt="Ranjan Kumar"
                   fill
+                  sizes="(max-width: 768px) 240px, 240px"
                   className="object-cover"
                   priority
                 />

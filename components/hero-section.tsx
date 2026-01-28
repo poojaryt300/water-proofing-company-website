@@ -12,6 +12,7 @@ export function HeroSection() {
           src="/images/hero-waterproofing.jpg"
           alt="Professional waterproofing work"
           fill
+          sizes="100vw"
           className="object-cover"
           priority
         />

@@ -94,7 +94,9 @@ export function ProjectsSection() {
                   src={project.image || "/placeholder.svg"}
                   alt={project.title}
                   fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   className="object-cover transition-transform duration-500 group-hover:scale-105"
+                  priority={false}
                 />
                 <div className="absolute inset-0 bg-background/60 group-hover:bg-background/40 transition-colors" />
               </div>
