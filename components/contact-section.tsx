@@ -22,7 +22,7 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Office",
-    details: ["Madoor Near Ayyappa Mandir, NH-66, Kotekar Post, Mangalore – 575 022, Karnataka, India"],
+    details: ["Door No.5-111/13(2)  VS COMPLEX , YEYYADI PADAVU SHKATHINAGAR ROAD NEX TO MANDAVI SERVICE CENTER,KONCHADY P.O MANGALORE -575008"],
   },
   {
     icon: Clock,
@@ -151,7 +151,8 @@ export function ContactSection() {
               <div className="text-center">
                 <MapPin className="w-8 h-8 text-primary mx-auto mb-2" />
                 <p className="text-muted-foreground text-sm">Interactive Map</p>
-                <p className="text-muted-foreground text-xs">Madoor Near Ayyappa Mandir, NH-66, Kotekar Post, Mangalore – 575 022</p>
+                <p className="text-muted-foreground text-xs">VS COMPLEX , YEYYADI PADAVU SHKATHINAGAR ROAD NEX TO MANDAVI SERVICE CENTER,
+                  KONCHADY P.O MANGALORE -575008</p>
               </div>
             </div>
           </div>

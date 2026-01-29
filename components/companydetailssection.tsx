@@ -23,9 +23,9 @@ export function CompanyDetailsSection() {
           <div className="rounded-xl border border-border p-6 bg-muted/30">
             <h3 className="text-xl font-semibold mb-4">Annual Turnover</h3>
             <ul className="space-y-2 text-muted-foreground">
-              <li>2019 – 20 : ₹25,32,102</li>
-              <li>2020 – 21 : ₹35,08,374</li>
-              <li>2021 – 22 : ₹38,15,392</li>
+              <li>2019 – 20 : ₹45,32,102</li>
+              <li>2020 – 21 : ₹55,08,374</li>
+              <li>2021 – 22 : ₹65,15,392</li>
             </ul>
           </div>
 

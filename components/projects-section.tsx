@@ -3,11 +3,11 @@ import { MapPin } from "lucide-react";
 
 const projects = [
   {
-    image: "/images/project-1.jpg",
-    title: "Chathrapal Surface",
-    location: "Mumbai, Maharashtra",
-    
+    image: "/images/project-14.jpg",
+    title: "Somayajii Builders",
+    location: "central market , mangalore",
   },
+  
   {
     image: "/images/project-2.jpg",
     title: "Namko Builder",
@@ -62,6 +62,22 @@ const projects = [
     image: "/images/project-11.jpg",
     title: "Byndoor palace",
     location: "Byndoor, Mangalore",
+  },
+  {
+    image: "/images/project-12.jpg",
+    title: "bhandary builder",
+    location: "patla, Mangalore",
+  },
+ {
+    image: "/images/project-13.jpg",
+    title: "royal bawa",
+    location: "pumpwell, Mangalore",
+  },
+  {
+    image: "/images/project-1.jpg",
+    title: "Chathrapal Surface",
+    location: "Mumbai, Maharashtra",
+    
   },
  
 ];

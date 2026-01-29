@@ -5,7 +5,7 @@ export function FounderSection() {
   return (
     <section id="founder" className="py-24 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         {/* Heading */}
         <div className="text-center mb-16">
           <span className="text-primary text-sm font-medium tracking-wide uppercase">
@@ -17,49 +17,52 @@ export function FounderSection() {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          
-          {/* Image Section */}
+
+          {/* IMAGE SECTION */}
           <div className="relative flex justify-center">
-            
-            {/* Animated Ring */}
-            <div className="relative w-96 h-96">
-              <div className="absolute inset-0 rounded-full 
-                bg-gradient-to-tr from-primary/50 via-primary/30 to-primary/20 
-                animate-spin-slow blur-sm opacity-70" 
+
+            {/* Blue Glow */}
+            <div className="absolute inset-0 flex justify-center">
+              <div
+                className="w-[260px] h-[280px] rounded-[50%]
+                bg-gradient-to-tr from-blue-500 via-cyan-400 to-indigo-600
+                blur-xl opacity-70"
               />
-
-              <div className="absolute inset-[8px] rounded-full bg-background" />
-
-              <div className="absolute inset-[12px] rounded-full overflow-hidden flex items-center justify-center">
-                <Image
-                  src="/images/ranjan.jpg"
-                  alt="Ranjan Kumar"
-                  width={360}
-                  height={360}
-                  className="object-cover w-full h-full rounded-full"
-                  priority
-                />
-              </div>
             </div>
 
-            {/* Floating Experience Card */}
-            <div className="absolute -bottom-6 right-1/2 translate-x-1/2 lg:right-auto lg:left-8 bg-card p-4 rounded-lg border border-border shadow-lg">
-              <div className="flex items-center gap-3">
-                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
-                  <Briefcase className="w-6 h-6 text-primary" />
-                </div>
-                <div>
-                  <p className="text-2xl font-bold text-primary">10+</p>
-                  <p className="text-xs text-muted-foreground">
-                    Years in Industry
-                  </p>
-                </div>
+            {/* Image */}
+            <div
+              className="relative w-[260px] h-[280px] rounded-[50%]
+              overflow-hidden border-4 border-black bg-background z-10"
+            >
+              <Image
+                src="/images/ranjan.jpg"
+                alt="Ranjan Kumar"
+                fill
+                className="object-cover"
+                priority
+              />
+            </div>
+
+            {/* Experience Card */}
+            <div
+              className="absolute bottom-6 z-20 bg-card px-5 py-3 rounded-xl
+              border border-border shadow-lg flex items-center gap-3"
+            >
+              <div className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center">
+                <Briefcase className="w-5 h-5 text-primary" />
+              </div>
+              <div>
+                <p className="text-xl font-bold text-primary">10+</p>
+                <p className="text-xs text-muted-foreground">
+                  Years in Industry
+                </p>
               </div>
             </div>
 
           </div>
 
-          {/* Content Section */}
+          {/* CONTENT SECTION */}
           <div>
             <h3 className="text-2xl font-bold text-foreground mb-2">
               Ranjan Kumar
@@ -69,17 +72,15 @@ export function FounderSection() {
             </p>
 
             <p className="text-muted-foreground leading-relaxed mb-6">
-              With over 7 years of hands-on experience in the construction and
+              With over 10 years of hands-on experience in the construction and
               waterproofing industry, Ranjan Kumar founded Shree Durga Enterprises
               with a vision to revolutionize how structures are protected from
-              water damage, working on major infrastructure projects across the
-              country.
+              water damage.
             </p>
 
             <p className="text-muted-foreground leading-relaxed mb-8">
               Under his leadership, Shree Durga Enterprises has grown from a
-              small local contractor to a recognized name in the waterproofing
-              industry, serving residential, commercial, and industrial clients.
+              small local contractor to a recognized industry name.
             </p>
 
             {/* Quote */}
@@ -87,8 +88,7 @@ export function FounderSection() {
               <Quote className="w-8 h-8 text-primary/20 absolute top-4 right-4" />
               <p className="text-foreground italic leading-relaxed">
                 “Quality waterproofing is not an expense; it’s an investment in
-                your structure’s future. We don’t just prevent leaks—we provide
-                peace of mind.”
+                your structure’s future.”
               </p>
               <p className="text-primary text-sm mt-4 font-medium">
                 — Ranjan Kumar
